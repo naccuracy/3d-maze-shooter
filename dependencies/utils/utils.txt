@@ -1,0 +1,9 @@
+﻿#	  ☀️
+options.h options.cpp содержат
+Класс OptionsSet список опций
+ optionsList
+ openFile()
+ saveFile()
+ формат файлов opt - таблица с разделителем ';'
+Структура Option структура состоящая из полей типа string: Name(название опции) Value(Значение опции)
+

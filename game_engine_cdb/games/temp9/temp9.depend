@@ -1,0 +1,106 @@
+# depslib dependency file v1.0
+1410529111 source:c:\2\games\temp9\my_form1.cpp
+	"my_form1.h"
+	<stdlib.h>
+	<stdio.h>
+	<GL/gl.h>
+
+1410528612 c:\2\games\temp9\my_form1.h
+	"../../src/2D/interface.h"
+
+1408192430 c:\2\src\2d\interface.h
+	"vector_font.h"
+	<vector>
+	<string>
+
+1340318916 c:\2\src\2d\vector_font.h
+	<vector>
+
+1410080254 source:c:\2\games\temp9\my_interface.cpp
+	"my_interface.h"
+
+1410078794 c:\2\games\temp9\my_interface.h
+	"../../src/2D/interface.h"
+	"my_form1.h"
+	"opt_form.h"
+	"about_form.h"
+
+1407568262 c:\2\games\temp9\opt_form.h
+	"../../src/2D/interface.h"
+	"../../src/utils/options.h"
+
+1407563846 c:\2\src\utils\options.h
+	<stdlib.h>
+	<vector>
+	<string>
+
+1408098970 c:\2\games\temp9\about_form.h
+	"../../src/2D/interface.h"
+
+1407569666 source:c:\2\games\temp9\opt_form.cpp
+	"opt_form.h"
+	<stdio.h>
+	<GL/gl.h>
+	<vector>
+	<string>
+
+1410782790 source:c:\2\games\temp9\game.cpp
+	"game.h"
+
+1410528824 c:\2\games\temp9\game.h
+	"../../src/openAL/al.h"
+	"../../src/openAL/alc.h"
+	"../../src/openAL/CWaves.h"
+	"../../src/utils/options.h"
+	"../../src/utils/bmpreader.h"
+	"../../src/3D/simple_mesh.h"
+	"my_interface.h"
+	<GL/gl.h>
+	<GL/glu.h>
+
+1165584658 c:\2\src\openal\al.h
+
+1176469368 c:\2\src\openal\alc.h
+
+1406966708 c:\2\src\openal\cwaves.h
+	<windows.h>
+	<stdio.h>
+
+1407566288 c:\2\src\utils\bmpreader.h
+
+1410073350 c:\2\src\3d\simple_mesh.h
+	"point3f.h"
+	"point2f.h"
+	"face3i.h"
+	"frame.h"
+	<vector>
+	<string>
+
+1356370748 c:\2\src\3d\point3f.h
+
+1356367984 c:\2\src\3d\point2f.h
+
+1356370640 c:\2\src\3d\face3i.h
+	"edge2i.h"
+
+1356368972 c:\2\src\3d\edge2i.h
+
+1405839420 c:\2\src\3d\frame.h
+	"point3f.h"
+
+1410865742 source:c:\2\games\temp9\wmain.cpp
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string>
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"game.h"
+
+1409395268 source:c:\2\games\temp9\about_form.cpp
+	"about_form.h"
+	<stdlib.h>
+	<stdio.h>
+	<GL/gl.h>
+

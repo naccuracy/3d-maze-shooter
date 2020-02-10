@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1405845268 source:c:\Разное\klepikov\cod\loft_util\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,292 @@
+# depslib dependency file v1.0
+1408972880 source:c:\games\gecdbn23\games\temp8\my_form1.cpp
+	"my_form1.h"
+	<stdlib.h>
+	<stdio.h>
+	<GL/gl.h>
+
+1408972866 c:\games\gecdbn23\games\temp8\my_form1.h
+	"../../src/2D/interface.h"
+
+1408188829 c:\games\gecdbn23\src\2d\interface.h
+	"vector_font.h"
+	<vector>
+	<string>
+
+1340315316 c:\games\gecdbn23\src\2d\vector_font.h
+	<vector>
+
+1408279852 source:c:\games\gecdbn23\games\temp8\my_interface.cpp
+	"my_interface.h"
+
+1408279834 c:\games\gecdbn23\games\temp8\my_interface.h
+	"../../src/2D/interface.h"
+	"my_form1.h"
+	"opt_form.h"
+	"about_form.h"
+
+1407561061 c:\games\gecdbn23\games\temp8\opt_form.h
+	"../../src/2D/interface.h"
+	"../../src/utils/options.h"
+
+1407560245 c:\games\gecdbn23\src\utils\options.h
+	<stdlib.h>
+	<vector>
+	<string>
+
+1408091769 c:\games\gecdbn23\games\temp8\about_form.h
+	"../../src/2D/interface.h"
+
+1407562464 source:c:\games\gecdbn23\games\temp8\opt_form.cpp
+	"opt_form.h"
+	<stdio.h>
+	<GL/gl.h>
+	<vector>
+	<string>
+
+1408091762 source:c:\games\gecdbn23\games\temp8\about_form.cpp
+	"about_form.h"
+	<stdlib.h>
+	<stdio.h>
+	<GL/gl.h>
+
+1408972859 source:c:\games\gecdbn23\games\temp8\wmain.cpp
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string>
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"../../src/openAL/al.h"
+	"../../src/openAL/alc.h"
+	"../../src/openAL/CWaves.h"
+	"../../src/utils/options.h"
+	"../../src/utils/bmpreader.h"
+	"../../src/3D/simple_mesh.h"
+	"my_interface.h"
+
+1165581058 c:\games\gecdbn23\src\openal\al.h
+
+1176465768 c:\games\gecdbn23\src\openal\alc.h
+
+1406963107 c:\games\gecdbn23\src\openal\cwaves.h
+	<windows.h>
+	<stdio.h>
+
+1407562687 c:\games\gecdbn23\src\utils\bmpreader.h
+
+1407933387 c:\games\gecdbn23\src\3d\simple_mesh.h
+	"point3f.h"
+	"point2f.h"
+	"face3i.h"
+	"frame.h"
+	<vector>
+	<string>
+
+1356367148 c:\games\gecdbn23\src\3d\point3f.h
+
+1356364384 c:\games\gecdbn23\src\3d\point2f.h
+
+1356367040 c:\games\gecdbn23\src\3d\face3i.h
+	"edge2i.h"
+
+1356365372 c:\games\gecdbn23\src\3d\edge2i.h
+
+1405835820 c:\games\gecdbn23\src\3d\frame.h
+	"point3f.h"
+
+1409314378 source:e:\cod\game_engine_cdb\games\temp8\my_form1.cpp
+	"my_form1.h"
+	<stdlib.h>
+	<stdio.h>
+	<GL/gl.h>
+
+1408972868 e:\cod\game_engine_cdb\games\temp8\my_form1.h
+	"../../src/2D/interface.h"
+
+1408188830 e:\cod\game_engine_cdb\src\2d\interface.h
+	"vector_font.h"
+	<vector>
+	<string>
+
+1340315316 e:\cod\game_engine_cdb\src\2d\vector_font.h
+	<vector>
+
+1408279854 source:e:\cod\game_engine_cdb\games\temp8\my_interface.cpp
+	"my_interface.h"
+
+1408279836 e:\cod\game_engine_cdb\games\temp8\my_interface.h
+	"../../src/2D/interface.h"
+	"my_form1.h"
+	"opt_form.h"
+	"about_form.h"
+
+1407561062 e:\cod\game_engine_cdb\games\temp8\opt_form.h
+	"../../src/2D/interface.h"
+	"../../src/utils/options.h"
+
+1407560246 e:\cod\game_engine_cdb\src\utils\options.h
+	<stdlib.h>
+	<vector>
+	<string>
+
+1408091770 e:\cod\game_engine_cdb\games\temp8\about_form.h
+	"../../src/2D/interface.h"
+
+1407562466 source:e:\cod\game_engine_cdb\games\temp8\opt_form.cpp
+	"opt_form.h"
+	<stdio.h>
+	<GL/gl.h>
+	<vector>
+	<string>
+
+1408091764 source:e:\cod\game_engine_cdb\games\temp8\about_form.cpp
+	"about_form.h"
+	<stdlib.h>
+	<stdio.h>
+	<GL/gl.h>
+
+1409314160 source:e:\cod\game_engine_cdb\games\temp8\wmain.cpp
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string>
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"../../src/openAL/al.h"
+	"../../src/openAL/alc.h"
+	"../../src/openAL/CWaves.h"
+	"../../src/utils/options.h"
+	"../../src/utils/bmpreader.h"
+	"../../src/3D/simple_mesh.h"
+	"my_interface.h"
+
+1165584658 e:\cod\game_engine_cdb\src\openal\al.h
+
+1176465768 e:\cod\game_engine_cdb\src\openal\alc.h
+
+1406963108 e:\cod\game_engine_cdb\src\openal\cwaves.h
+	<windows.h>
+	<stdio.h>
+
+1407562688 e:\cod\game_engine_cdb\src\utils\bmpreader.h
+
+1407933388 e:\cod\game_engine_cdb\src\3d\simple_mesh.h
+	"point3f.h"
+	"point2f.h"
+	"face3i.h"
+	"frame.h"
+	<vector>
+	<string>
+
+1356370748 e:\cod\game_engine_cdb\src\3d\point3f.h
+
+1356367984 e:\cod\game_engine_cdb\src\3d\point2f.h
+
+1356370640 e:\cod\game_engine_cdb\src\3d\face3i.h
+	"edge2i.h"
+
+1356368972 e:\cod\game_engine_cdb\src\3d\edge2i.h
+
+1405835820 e:\cod\game_engine_cdb\src\3d\frame.h
+	"point3f.h"
+
+1409389944 source:c:\2\games\temp8\my_form1.cpp
+	"my_form1.h"
+	<stdlib.h>
+	<stdio.h>
+	<GL/gl.h>
+
+1408976468 c:\2\games\temp8\my_form1.h
+	"../../src/2D/interface.h"
+
+1408188830 c:\2\src\2d\interface.h
+	"vector_font.h"
+	<vector>
+	<string>
+
+1340315316 c:\2\src\2d\vector_font.h
+	<vector>
+
+1409391008 source:c:\2\games\temp8\my_interface.cpp
+	"my_interface.h"
+
+1408283436 c:\2\games\temp8\my_interface.h
+	"../../src/2D/interface.h"
+	"my_form1.h"
+	"opt_form.h"
+	"about_form.h"
+
+1407564662 c:\2\games\temp8\opt_form.h
+	"../../src/2D/interface.h"
+	"../../src/utils/options.h"
+
+1407560246 c:\2\src\utils\options.h
+	<stdlib.h>
+	<vector>
+	<string>
+
+1408095370 c:\2\games\temp8\about_form.h
+	"../../src/2D/interface.h"
+
+1407566066 source:c:\2\games\temp8\opt_form.cpp
+	"opt_form.h"
+	<stdio.h>
+	<GL/gl.h>
+	<vector>
+	<string>
+
+1409817896 source:c:\2\games\temp8\wmain.cpp
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string>
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"../../src/openAL/al.h"
+	"../../src/openAL/alc.h"
+	"../../src/openAL/CWaves.h"
+	"../../src/utils/options.h"
+	"../../src/utils/bmpreader.h"
+	"../../src/3D/simple_mesh.h"
+	"my_interface.h"
+
+1165581058 c:\2\src\openal\al.h
+
+1176465768 c:\2\src\openal\alc.h
+
+1406963108 c:\2\src\openal\cwaves.h
+	<windows.h>
+	<stdio.h>
+
+1407562688 c:\2\src\utils\bmpreader.h
+
+1407933388 c:\2\src\3d\simple_mesh.h
+	"point3f.h"
+	"point2f.h"
+	"face3i.h"
+	"frame.h"
+	<vector>
+	<string>
+
+1356367148 c:\2\src\3d\point3f.h
+
+1356364384 c:\2\src\3d\point2f.h
+
+1356367040 c:\2\src\3d\face3i.h
+	"edge2i.h"
+
+1356365372 c:\2\src\3d\edge2i.h
+
+1405835820 c:\2\src\3d\frame.h
+	"point3f.h"
+
+1409391668 source:c:\2\games\temp8\about_form.cpp
+	"about_form.h"
+	<stdlib.h>
+	<stdio.h>
+	<GL/gl.h>
+

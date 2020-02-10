@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="temp9" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin\temp9" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="..\..\engine\openAL\libs\Win32\OpenAL32.lib" />
+					<Add library="..\..\engine\libWave.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="..\..\engine\lib2dinterface.a" />
+			<Add library="..\..\engine\lib3dengine.a" />
+			<Add library="..\..\engine\libUtilsengine.a" />
+			<Add library="libuser32.a" />
+			<Add library="libgdi32.a" />
+			<Add library="libglu32.a" />
+			<Add library="libkernel32.a" />
+			<Add library="libopengl32.a" />
+		</Linker>
+		<Unit filename="about_form.cpp" />
+		<Unit filename="about_form.h" />
+		<Unit filename="game.cpp" />
+		<Unit filename="game.h" />
+		<Unit filename="my_form1.cpp" />
+		<Unit filename="my_form1.h" />
+		<Unit filename="my_interface.cpp" />
+		<Unit filename="my_interface.h" />
+		<Unit filename="opt_form.cpp" />
+		<Unit filename="opt_form.h" />
+		<Unit filename="wmain.cpp" />
+		<Unit filename="wmain.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

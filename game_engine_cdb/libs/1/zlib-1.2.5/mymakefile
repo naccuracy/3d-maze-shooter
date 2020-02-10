@@ -1,0 +1,48 @@
+OBJC = adler32.o compress.o crc32.o deflate.o gzclose.o gzlib.o gzread.o \
+	gzwrite.o infback.o inffast.o inflate.o inftrees.o trees.o uncompr.o zutil.o
+
+libz.a: adler32.o compress.o crc32.o deflate.o gzclose.o gzlib.o gzread.o \
+	gzwrite.o infback.o inffast.o inflate.o inftrees.o trees.o uncompr.o zutil.o
+
+	ar rc $@ adler32.o compress.o crc32.o deflate.o gzclose.o gzlib.o gzread.o \
+	gzwrite.o infback.o inffast.o inflate.o inftrees.o trees.o uncompr.o zutil.o
+	ranlib libz.a
+	
+adler32.o: adler32.c
+	gcc -c adler32.c -lm -o $@
+zutil.o: zutil.c
+	gcc -c zutil.c -lm -o $@
+gzclose.o: gzclose.c
+	 gcc -c gzclose.c -lm -o $@ 
+gzlib.o: gzlib.c
+	gcc -c gzlib.c -lm -o $@ 
+gzread.o: gzread.c
+	gcc -c gzread.c -lm -o $@ 
+gzwrite.o: gzwrite.c
+	gcc -c gzwrite.c -lm -o $@
+compress.o: compress.c
+	gcc -c compress.c -lm -o $@ 
+example.o: example.c
+	gcc -c example.c -lm -o $@ 
+minigzip.o: minigzip.c
+	gcc -c minigzip.c -lm -o $@ 
+uncompr.o: uncompr.c
+	gcc -c uncompr.c -lm -o $@
+crc32.o: crc32.c
+	gcc -c crc32.c -lm -o $@
+deflate.o: deflate.c
+	gcc -c deflate.c -lm -o $@
+infback.o: infback.c 
+	gcc -c infback.c -lm -o $@ 
+inflate.o: inflate.c
+	gcc -c inflate.c -lm -o $@
+inffast.o: inffast.c
+	gcc -c inffast.c -lm -o $@
+inftrees.o: inftrees.c
+	gcc -c inftrees.c -lm -o $@
+trees.o: trees.c
+	gcc -c trees.c -lm -o $@
+
+
+clean:
+	rm -f *.o *.a

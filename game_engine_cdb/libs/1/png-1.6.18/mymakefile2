@@ -1,0 +1,55 @@
+RANLIB=ranlib
+ZLIBDIR = ../zlib-1.2.5/
+ZLIB = $(ZLIBDIR)libz.a
+OBJS = 	png.o \
+	pngerror.o \
+	pngget.o \
+	pngmem.o \
+	pngpread.o \
+	pngread.o \
+	pngrio.o \
+	pngrtran.o \
+	pngrutil.o \
+	pngset.o \
+	pngtrans.o \
+	pngwio.o \
+	pngwrite.o \
+	pngwtran.o \
+	pngwutil.o
+
+libpng.a: $(OBJS)
+	ar rc $@ $(OBJS) $(ZLIB)
+	$(RANLIB) $@
+
+png.o: png.c
+	gcc -c png.c -I$(ZLIBDIR) -lm -o $@
+pngerror.o: pngerror.c
+	gcc -c pngerror.c -I$(ZLIBDIR) -lm -o $@
+pngget.o: pngget.c
+	gcc -c pngget.c -I$(ZLIBDIR) -lm -o $@
+pngmem.o: pngmem.c
+	gcc -c pngmem.c -I$(ZLIBDIR) -lm -o $@
+pngpread.o: pngpread.c
+	gcc -c pngpread.c -I$(ZLIBDIR) -lm -o $@
+pngread.o: pngread.c
+	gcc -c pngread.c -I$(ZLIBDIR) -lm -o $@
+pngrio.o: pngrio.c
+	gcc -c pngrio.c -I$(ZLIBDIR) -lm -o $@
+pngrtran.o: pngrtran.c
+	gcc -c pngrtran.c -I$(ZLIBDIR) -lm -o $@
+pngrutil.o: pngrutil.c
+	gcc -c pngrutil.c -I$(ZLIBDIR) -lm -o $@
+pngset.o: pngset.c
+	gcc -c pngset.c -I$(ZLIBDIR) -lm -o $@
+pngtrans.o: pngtrans.c
+	gcc -c pngtrans.c -I$(ZLIBDIR) -lm -o $@
+pngwio.o: pngwio.c
+	gcc -c pngwio.c -I$(ZLIBDIR) -lm -o $@
+pngwrite.o: pngwrite.c
+	gcc -c pngwrite.c -I$(ZLIBDIR) -lm -o $@
+pngwtran.o: pngwtran.c
+	gcc -c pngwtran.c -I$(ZLIBDIR) -lm -o $@
+pngwutil.o: pngwutil.c
+	gcc -c pngwutil.c -I$(ZLIBDIR) -lm -o $@
+clean:
+	rm -f *.o *.a
